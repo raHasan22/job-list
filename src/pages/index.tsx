@@ -2,6 +2,9 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Banner from '@/components/Banner/Banner'
 import CategoryList from '@/components/CategoryList/CategoryList'
+import OurTrendingJobs from '@/components/OurTrendingJobs/OurTrendingJobs'
+import Stats from '@/components/Stats/Stats'
+import Feedback from '@/components/Feedback/Feedback'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -12,7 +15,12 @@ export default function Home() {
     >
       <Banner></Banner>
       <CategoryList></CategoryList>
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
+      <OurTrendingJobs></OurTrendingJobs>
+      <Stats></Stats>
+      <Feedback></Feedback>
+
+
+      {/* <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
@@ -114,7 +122,7 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
+      </div> */}
     </main>
   )
 }
