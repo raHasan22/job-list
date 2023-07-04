@@ -76,7 +76,7 @@ export default function CategoryList() {
                     />
                   </div>
                 </div>
-                <h4 className="text-xl mb-2">{d.category}</h4>
+                <h4 className="text-xl mb-2 hover:text-[#0aa8ab]">{d.category}</h4>
                 <p className="text-sm">{d.vacancy_count} Jobs Available</p>
               </div>
             </Carousel.Item>

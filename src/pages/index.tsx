@@ -5,6 +5,7 @@ import CategoryList from '@/components/CategoryList/CategoryList'
 import OurTrendingJobs from '@/components/OurTrendingJobs/OurTrendingJobs'
 import Stats from '@/components/Stats/Stats'
 import Feedback from '@/components/Feedback/Feedback'
+import WorkProcess from '@/components/WorkProcess/WorkProcess'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function Home() {
       <OurTrendingJobs></OurTrendingJobs>
       <Stats></Stats>
       <Feedback></Feedback>
+      <WorkProcess></WorkProcess>
 
 
       {/* <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
