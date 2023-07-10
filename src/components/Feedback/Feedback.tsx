@@ -1,12 +1,9 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, FreeMode, Pagination } from "swiper/modules";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
-
-// import required modules
 
 export default function Feedback() {
   return (
@@ -15,13 +12,28 @@ export default function Feedback() {
         <h1 className="text-4xl lg:text-5xl font-serif text-white my-4">
           Trusted Customer <span className="text-cyan-500">Feedback</span>
         </h1>
-        <p className="font-mono">
-          Check out our customer reviews 
-        </p>
+        <p className="font-mono">Check out our customer reviews</p>
       </div>
       <div className="my-8">
         <Swiper
-          slidesPerView={3}
+         breakpoints={{
+            640: {
+              width: 640,
+              slidesPerView: 1,
+            },
+            768: {
+              width: 768,
+              slidesPerView: 1,
+            },
+            1024: {
+              width: 1024,
+              slidesPerView: 3,
+            },
+            1200: {
+              width: 1200,
+              slidesPerView: 3,
+            },
+          }}
           spaceBetween={30}
           freeMode={true}
           autoplay={{

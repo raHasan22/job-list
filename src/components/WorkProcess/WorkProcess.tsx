@@ -66,7 +66,6 @@ export default function WorkProcess() {
                 <img
                   className=""
                   width="100%"
-                  height="100%"
                   src="assets/process/home6-apply-jobs-icon.svg"
                 />
               </div>

@@ -6,6 +6,9 @@ import OurTrendingJobs from '@/components/OurTrendingJobs/OurTrendingJobs'
 import Stats from '@/components/Stats/Stats'
 import Feedback from '@/components/Feedback/Feedback'
 import WorkProcess from '@/components/WorkProcess/WorkProcess'
+import TopRecruiters from '@/components/TopRecruiters/TopRecruiters'
+import TrustedCompanies from '@/components/TrustedCompanies/TrustedCompanies'
+import LatestNews from '@/components/LatestNews/LatestNews'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,6 +23,9 @@ export default function Home() {
       <Stats></Stats>
       <Feedback></Feedback>
       <WorkProcess></WorkProcess>
+      <TopRecruiters></TopRecruiters>
+      <TrustedCompanies></TrustedCompanies>
+      <LatestNews></LatestNews>
 
 
       {/* <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
